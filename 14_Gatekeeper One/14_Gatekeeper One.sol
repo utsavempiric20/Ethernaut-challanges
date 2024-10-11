@@ -5,12 +5,12 @@ contract GatekeeperOne {
     address public entrant;
 
     modifier gateOne() {
-        require(msg.sender != tx.origin);
+        require(msg.sender != tx.origin, "wrong sender");
         _;
     }
 
     modifier gateTwo() {
-        require(gasleft() % 8191 == 0);
+        require(gasleft() % 8191 == 0, "wrong gas");
         _;
     }
 
