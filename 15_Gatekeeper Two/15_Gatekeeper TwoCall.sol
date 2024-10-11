@@ -31,3 +31,4 @@ contract Attack {
     //     return bytes8(hashedAddress ^ (uint64(0) - 1));
     // }
 }
+// Way to go! Now that you can get past the gatekeeper, you have what it takes to join theCyber, a decentralized club on the Ethereum mainnet. Get a passphrase by contacting the creator on reddit or via email and use it to register with the contract at gatekeepertwo.thecyber.eth (be aware that only the first 128 entrants will be accepted by the contract).
